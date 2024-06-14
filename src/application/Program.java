@@ -52,6 +52,8 @@ public class Program {
 		int id = sc.nextInt();
 		sellerDao.deleteById(id);
 		System.out.println("Deleted completed!");
+		
+		sc.close();
 
 	}
 
